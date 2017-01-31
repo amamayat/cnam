@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>createMessagerieTresFaible</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">createMessagerieTresFaible</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/tpdsi/tp7/index.php?nextURL=/tpdsi/tp7/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Créer un ticket</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=productId</td>
+	<td>label=Messagerie</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=priority</td>
+	<td>label=Faible</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='type'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=oneLiner</td>
+	<td>XXX</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contents</td>
+	<td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>buglist.1.0</td>
+	<td>Messagerie</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>buglist.1.1</td>
+	<td>Faible</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>buglist.1.2</td>
+	<td>evolution</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>buglist.1.3</td>
+	<td>regexp:^[0-9][0-9]/[0-9][0-9]/20[0-9][0-9]$</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>buglist.1.4</td>
+	<td>XXX</td>
+</tr>
+<tr>
+	<td>verifyTable</td>
+	<td>buglist.1.5</td>
+	<td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=tr.tab_bg_blue</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

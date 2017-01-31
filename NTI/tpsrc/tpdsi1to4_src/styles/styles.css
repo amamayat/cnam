@@ -1,0 +1,162 @@
+/*#########Fichier CSS########*/
+
+
+
+/* #################################### */
+/* ###### general ###### */
+/* #################################### */
+  body 
+  {  
+    padding :5px;
+	margin :0;
+	font-size : 12px;
+ 	background-color : #FFFFFF;
+	color : #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+
+  }
+
+  img {
+  border: 0;
+ 
+  }
+ 
+ small
+  {  
+    font-family: verdana;
+	font-size: 10px;
+	text-decoration: underline;
+  } 
+
+  b
+  {
+    font-wheight: bold;
+  }
+
+ .center {
+text-align:center;
+}
+
+.red { color:red;}
+.blue {color:blue;}
+.green {color:green;}
+
+
+
+/* #################################### */
+ /* ###### liens ###### */
+/* #################################### */
+
+
+  a, a:link
+  {
+    font-wheight: bold;
+    text-decoration: none;
+  	color : #009966;
+  }
+
+  /*
+ a:visited   {
+    font-wheight: bold;
+    text-decoration: none;
+     color : #009966;
+  }
+*/
+
+  a:hover
+  {
+    color: black;
+  }
+
+  hr{border: 1px solid #cccccc;
+       }
+
+
+/* #################################### */
+ /* ###### form ###### */
+ /* #################################### */
+ 
+ form  {font-size: 12px;
+  margin:0;
+margin-bottom:10px;
+  padding:0; 
+   
+   }
+
+ option {border:1px solid #ccc;
+        background-color:#ffffff;}
+
+ .submit { text-align:center;}
+  
+select { font-size: 11px;
+}
+
+
+input.submit {
+        border:1px solid #009966;
+        background-color:#eeeeee;
+        }
+        
+input.submit:hover {
+        border:1px solid #009966;
+       background-color:#ffffff;
+        }
+
+.button {
+        border:1px solid #009966;
+        background-color:#eeeeee;
+        }
+
+.button:hover{
+        border:1px solid #009966;
+       background-color:#ffffff;
+        }
+
+
+
+/* #################################### */
+ /* ###### table ###### */
+/* #################################### */
+ table {   }
+
+  th {  
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fccc6f;
+	vertical-align:bottom;}
+
+  
+  
+  td { font-size: 11px;}
+
+.tab_cadre{
+ -moz-border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+
+.tab_bg_1 {
+background-color: #ccccc7;
+
+}
+
+.tab_bg_2 {
+background-color: #d7d7d2;
+
+}
+
+.tab_bg_red {
+background-color: red;
+}
+.tab_bg_orange {
+background-color: orange;
+}
+.tab_bg_yellow {
+background-color: yellow;
+}
+.tab_bg_blue {
+background-color: blue;
+}
+.tab_bg_green {
+background-color: green;
+}
